@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+</head>
+<body>
+     <h1>Главная страница</h1>
+    {% for book in books %}
+        <div>
+            <strong>Название:</strong> {{ book.title }}
+        </div>
+    {% endfor %}
+</body>
+</html>
